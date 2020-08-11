@@ -1,0 +1,11 @@
+framework module SWMessages {
+  umbrella header "SWMessages-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module SWMessages.Swift {
+    header "SWMessages-Swift.h"
+    requires objc
+}

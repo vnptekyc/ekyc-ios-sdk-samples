@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="DemoEKYC_Swift" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4sL-9N-R6R">
+                                <rect key="frame" x="20" y="144" width="374" height="30"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <state key="normal" title="CMT Pro"/>
+                                <connections>
+                                    <action selector="clickCMT:" destination="BYZ-38-t0r" eventType="touchUpInside" id="RbT-fG-23s"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jfD-vI-CNJ">
+                                <rect key="frame" x="20" y="194" width="374" height="30"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <state key="normal" title="Passport Pro"/>
+                                <connections>
+                                    <action selector="clickPassport:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LAs-WH-drx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6mJ-FI-r7L">
+                                <rect key="frame" x="20" y="244" width="374" height="30"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <state key="normal" title="Bang lai xe Pro"/>
+                                <connections>
+                                    <action selector="clickBLX:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9n0-Yg-iPT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tKm-LX-HVB">
+                                <rect key="frame" x="20" y="294" width="374" height="30"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
+                                <state key="normal" title="CMT Quân Đội"/>
+                                <connections>
+                                    <action selector="clickCMTQD:" destination="BYZ-38-t0r" eventType="touchUpInside" id="yKi-EQ-SrW"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="4sL-9N-R6R" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="25y-ev-5Vx"/>
+                            <constraint firstItem="6mJ-FI-r7L" firstAttribute="top" secondItem="jfD-vI-CNJ" secondAttribute="bottom" constant="20" id="2be-rF-ZbZ"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="jfD-vI-CNJ" secondAttribute="trailing" constant="20" id="3JR-rD-X4l"/>
+                            <constraint firstItem="4sL-9N-R6R" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="89c-TW-Hd5"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="tKm-LX-HVB" secondAttribute="trailing" constant="20" id="BqQ-bn-XFr"/>
+                            <constraint firstItem="tKm-LX-HVB" firstAttribute="top" secondItem="6mJ-FI-r7L" secondAttribute="bottom" constant="20" id="QND-18-oha"/>
+                            <constraint firstItem="jfD-vI-CNJ" firstAttribute="top" secondItem="4sL-9N-R6R" secondAttribute="bottom" constant="20" id="Rz2-rf-jOG"/>
+                            <constraint firstItem="tKm-LX-HVB" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="ejs-MF-Gbo"/>
+                            <constraint firstItem="jfD-vI-CNJ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="f8P-py-YEo"/>
+                            <constraint firstItem="6mJ-FI-r7L" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="fWQ-KF-zZN"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="6mJ-FI-r7L" secondAttribute="trailing" constant="20" id="i9Q-hg-o4K"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="4sL-9N-R6R" secondAttribute="trailing" constant="20" id="w9M-3B-JRO"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="95.758928571428569"/>
+        </scene>
+    </scenes>
+</document>
