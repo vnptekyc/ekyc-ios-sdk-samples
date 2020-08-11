@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Opz-Gf-S4j">
+                                <rect key="frame" x="20" y="144" width="374" height="30"/>
+                                <state key="normal" title="CMT Pro"/>
+                                <connections>
+                                    <action selector="clickCMT:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nJW-hI-9EH"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UXb-PL-Kqy">
+                                <rect key="frame" x="20" y="244" width="374" height="30"/>
+                                <state key="normal" title="Bằng lái xe Pro"/>
+                                <connections>
+                                    <action selector="clickDrive:" destination="BYZ-38-t0r" eventType="touchUpInside" id="mv0-UJ-PeF"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="SIk-vs-GkO">
+                                <rect key="frame" x="20" y="294" width="374" height="30"/>
+                                <state key="normal" title="CMT Quân Đội Pro"/>
+                                <connections>
+                                    <action selector="clickCMTQD:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Yk2-3e-TDx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2iM-ET-7jQ">
+                                <rect key="frame" x="20" y="194" width="374" height="30"/>
+                                <state key="normal" title="Hộ chiếu Pro"/>
+                                <connections>
+                                    <action selector="clickPassport:" destination="BYZ-38-t0r" eventType="touchUpInside" id="HlT-9n-HrU"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="UXb-PL-Kqy" firstAttribute="top" secondItem="2iM-ET-7jQ" secondAttribute="bottom" constant="20" id="9WI-t9-WDo"/>
+                            <constraint firstItem="2iM-ET-7jQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="DrB-jo-kDm"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="SIk-vs-GkO" secondAttribute="trailing" constant="20" id="Eng-T9-xCY"/>
+                            <constraint firstItem="Opz-Gf-S4j" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="UKW-ap-LBK"/>
+                            <constraint firstItem="SIk-vs-GkO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="Yce-2F-y5b"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="UXb-PL-Kqy" secondAttribute="trailing" constant="20" id="b4u-F6-mxH"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Opz-Gf-S4j" secondAttribute="trailing" constant="20" id="cJ9-iQ-WNl"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="2iM-ET-7jQ" secondAttribute="trailing" constant="20" id="chN-GG-O6E"/>
+                            <constraint firstItem="2iM-ET-7jQ" firstAttribute="top" secondItem="Opz-Gf-S4j" secondAttribute="bottom" constant="20" id="dqP-RH-Gu1"/>
+                            <constraint firstItem="SIk-vs-GkO" firstAttribute="top" secondItem="UXb-PL-Kqy" secondAttribute="bottom" constant="20" id="ikv-TR-FAk"/>
+                            <constraint firstItem="Opz-Gf-S4j" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="rtN-SB-qg8"/>
+                            <constraint firstItem="UXb-PL-Kqy" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="scC-Oe-UBX"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="131.8840579710145" y="67.633928571428569"/>
+        </scene>
+    </scenes>
+</document>

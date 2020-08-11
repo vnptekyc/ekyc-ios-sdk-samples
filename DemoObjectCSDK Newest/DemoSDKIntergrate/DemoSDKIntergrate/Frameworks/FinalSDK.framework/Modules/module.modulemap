@@ -1,0 +1,11 @@
+framework module FinalSDK {
+  umbrella header "FinalSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module FinalSDK.Swift {
+    header "FinalSDK-Swift.h"
+    requires objc
+}
