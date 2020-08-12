@@ -1,0 +1,323 @@
+{
+    "Sheet1": [
+        {
+            "Tinh_TP_CMND": "Hà Nội",
+            "CMND_old": "01",
+            "CMND_new": "001"
+        },
+        {
+            "Tinh_TP_CMND": "Hồ Chí Minh",
+            "CMND_old": "02",
+            "CMND_new": "079"
+        },
+        {
+            "Tinh_TP_CMND": "An Giang",
+            "CMND_old": "35",
+            "CMND_new": "089"
+        },
+        {
+            "Tinh_TP_CMND": "Bà Rịa - Vũng Tàu",
+            "CMND_old": "27",
+            "CMND_new": "077"
+        },
+        {
+            "Tinh_TP_CMND": "Bạc Liêu",
+            "CMND_old": "38",
+            "CMND_new": "095"
+        },
+        {
+            "Tinh_TP_CMND": "Bắc Giang",
+            "CMND_old": "12",
+            "CMND_new": "024"
+        },
+        {
+            "Tinh_TP_CMND": "Bắc Kạn",
+            "CMND_old": "095",
+            "CMND_new": "006"
+        },
+        {
+            "Tinh_TP_CMND": "Bắc Ninh",
+            "CMND_old": "12",
+            "CMND_new": "027"
+        },
+        {
+            "Tinh_TP_CMND": "Bến Tre",
+            "CMND_old": "32",
+            "CMND_new": "083"
+        },
+        {
+            "Tinh_TP_CMND": "Bình Dương",
+            "CMND_old": "280, 281",
+            "CMND_new": "074"
+        },
+        {
+            "Tinh_TP_CMND": "Bình Đĩnh",
+            "CMND_old": "21",
+            "CMND_new": "052"
+        },
+        {
+            "Tinh_TP_CMND": "Bình Phước",
+            "CMND_old": "285",
+            "CMND_new": "070"
+        },
+        {
+            "Tinh_TP_CMND": "Bình Thuận",
+            "CMND_old": "26",
+            "CMND_new": "060"
+        },
+        {
+            "Tinh_TP_CMND": "Cao Bằng",
+            "CMND_old": "08",
+            "CMND_new": "004"
+        },
+        {
+            "Tinh_TP_CMND": "Cà Mau",
+            "CMND_old": "38",
+            "CMND_new": "096"
+        },
+        {
+            "Tinh_TP_CMND": "Cần Thơ",
+            "CMND_old": "36",
+            "CMND_new": "092"
+        },
+        {
+            "Tinh_TP_CMND": "Hải Phòng",
+            "CMND_old": "03",
+            "CMND_new": "031"
+        },
+        {
+            "Tinh_TP_CMND": "Đà Nẵng",
+            "CMND_old": "20",
+            "CMND_new": "048"
+        },
+        {
+            "Tinh_TP_CMND": "Gia Lai ",
+            "CMND_old": "230, 231",
+            "CMND_new": "064"
+        },
+        {
+            "Tinh_TP_CMND": "Hòa Bình ",
+            "CMND_old": "11",
+            "CMND_new": "017"
+        },
+        {
+            "Tinh_TP_CMND": "Hà giang",
+            "CMND_old": "07",
+            "CMND_new": "002"
+        },
+        {
+            "Tinh_TP_CMND": "Hà Nam",
+            "CMND_old": "16",
+            "CMND_new": "035"
+        },
+        {
+            "Tinh_TP_CMND": "Hà Tĩnh ",
+            "CMND_old": "18",
+            "CMND_new": "042"
+        },
+        {
+            "Tinh_TP_CMND": "Hưng Yên",
+            "CMND_old": "14",
+            "CMND_new": "033"
+        },
+        {
+            "Tinh_TP_CMND": "Hải Dương",
+            "CMND_old": "14",
+            "CMND_new": "030"
+        },
+        {
+            "Tinh_TP_CMND": "Hậu Giang",
+            "CMND_old": "36",
+            "CMND_new": "093"
+        },
+        {
+            "Tinh_TP_CMND": "Điện Biên ",
+            "CMND_old": "04",
+            "CMND_new": "011"
+        },
+        {
+            "Tinh_TP_CMND": "Đăk Lắk",
+            "CMND_old": "24",
+            "CMND_new": "066"
+        },
+        {
+            "Tinh_TP_CMND": "Đắc Nông ",
+            "CMND_old": "245",
+            "CMND_new": "067"
+        },
+        {
+            "Tinh_TP_CMND": "Đồng Nai",
+            "CMND_old": "27",
+            "CMND_new": "075"
+        },
+        {
+            "Tinh_TP_CMND": "Đồng Tháp ",
+            "CMND_old": "34",
+            "CMND_new": "087"
+        },
+        {
+            "Tinh_TP_CMND": "Khánh Hòa",
+            "CMND_old": "22",
+            "CMND_new": "056"
+        },
+        {
+            "Tinh_TP_CMND": "Kiên Giang",
+            "CMND_old": "37",
+            "CMND_new": "091"
+        },
+        {
+            "Tinh_TP_CMND": "Kon Tum",
+            "CMND_old": "23",
+            "CMND_new": "062"
+        },
+        {
+            "Tinh_TP_CMND": "Lai Châu",
+            "CMND_old": "04",
+            "CMND_new": "012"
+        },
+        {
+            "Tinh_TP_CMND": "Long An ",
+            "CMND_old": "30",
+            "CMND_new": "080"
+        },
+        {
+            "Tinh_TP_CMND": "Lào Cai",
+            "CMND_old": "06",
+            "CMND_new": "010"
+        },
+        {
+            "Tinh_TP_CMND": "Lâm Đồng",
+            "CMND_old": "25",
+            "CMND_new": "068"
+        },
+        {
+            "Tinh_TP_CMND": "Lạng Sơn",
+            "CMND_old": "08",
+            "CMND_new": "020"
+        },
+        {
+            "Tinh_TP_CMND": "Nam Định",
+            "CMND_old": "16",
+            "CMND_new": "036"
+        },
+        {
+            "Tinh_TP_CMND": "Nghệ An",
+            "CMND_old": "18",
+            "CMND_new": "040"
+        },
+        {
+            "Tinh_TP_CMND": "Ninh Bình",
+            "CMND_old": "16",
+            "CMND_new": "037"
+        },
+        {
+            "Tinh_TP_CMND": "Ninh Thuận",
+            "CMND_old": "26",
+            "CMND_new": "058"
+        },
+        {
+            "Tinh_TP_CMND": "Phú Thọ",
+            "CMND_old": "13",
+            "CMND_new": "025"
+        },
+        {
+            "Tinh_TP_CMND": "Phú Yên",
+            "CMND_old": "22",
+            "CMND_new": "054"
+        },
+        {
+            "Tinh_TP_CMND": "Quảng Bình",
+            "CMND_old": "19",
+            "CMND_new": "044"
+        },
+        {
+            "Tinh_TP_CMND": "Quảng Nam",
+            "CMND_old": "20",
+            "CMND_new": "049"
+        },
+        {
+            "Tinh_TP_CMND": "Quảng Ngãi",
+            "CMND_old": "21",
+            "CMND_new": "051"
+        },
+        {
+            "Tinh_TP_CMND": "Quảng Ninh",
+            "CMND_old": "10",
+            "CMND_new": "022"
+        },
+        {
+            "Tinh_TP_CMND": "Quảng Trị ",
+            "CMND_old": "19",
+            "CMND_new": "045"
+        },
+        {
+            "Tinh_TP_CMND": "Sóc Trăng",
+            "CMND_old": "36",
+            "CMND_new": "094"
+        },
+        {
+            "Tinh_TP_CMND": "Sơn La",
+            "CMND_old": "05",
+            "CMND_new": "014"
+        },
+        {
+            "Tinh_TP_CMND": "Thanh Hóa",
+            "CMND_old": "17",
+            "CMND_new": "038"
+        },
+        {
+            "Tinh_TP_CMND": "Thái Bình",
+            "CMND_old": "15",
+            "CMND_new": "034"
+        },
+        {
+            "Tinh_TP_CMND": "Thái Nguyên",
+            "CMND_old": "090, 091",
+            "CMND_new": "019"
+        },
+        {
+            "Tinh_TP_CMND": "Huế",
+            "CMND_old": "19",
+            "CMND_new": "046"
+        },
+        {
+            "Tinh_TP_CMND": "Tiền Giang",
+            "CMND_old": "31",
+            "CMND_new": "082"
+        },
+        {
+            "Tinh_TP_CMND": "Trà Vinh",
+            "CMND_old": "33",
+            "CMND_new": "084"
+        },
+        {
+            "Tinh_TP_CMND": "Tuyên Quang",
+            "CMND_old": "07",
+            "CMND_new": "008"
+        },
+        {
+            "Tinh_TP_CMND": "Tây Ninh",
+            "CMND_old": "29",
+            "CMND_new": "072"
+        },
+        {
+            "Tinh_TP_CMND": "Vĩnh Long",
+            "CMND_old": "33",
+            "CMND_new": "086"
+        },
+        {
+            "Tinh_TP_CMND": "Vĩnh Phúc ",
+            "CMND_old": "13",
+            "CMND_new": "026"
+        },
+        {
+            "Tinh_TP_CMND": "Yên Bái",
+            "CMND_old": "06",
+            "CMND_new": "015"
+        },
+        {
+            "Tinh_TP_CMND": "Hà Tây",
+            "CMND_old": "11"
+        }
+    ]
+}
