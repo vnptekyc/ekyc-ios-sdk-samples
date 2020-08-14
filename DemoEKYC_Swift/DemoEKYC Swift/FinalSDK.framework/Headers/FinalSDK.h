@@ -16,3 +16,5 @@ FOUNDATION_EXPORT const unsigned char FinalSDKVersionString[];
 // In this header, you should import all the public headers of your framework using statements like #import <FinalSDK/PublicHeader.h>
 #import <FinalSDK/SlideShowImages.h>
 #import <FinalSDK/PagerView.h>
+#import <FinalSDK/LOTAnimationView.h>
+#import <FinalSDK/LOTAnimatedControl.h>
